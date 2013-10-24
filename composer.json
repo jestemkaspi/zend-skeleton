@@ -1,0 +1,26 @@
+{
+    "name": "jestemkaspi/zend-skeleton",
+    "description": "",
+    "minimum-stability": "dev",
+    "config": {
+        "vendor-dir": "libraries"
+    },
+    "repositories": {
+        "zendframework": {
+            "type": "package",
+            "package": {
+                "name": "Zend",
+                "version": "@dev",
+                "source": {
+                    "url": "http://framework.zend.com/svn/framework/",
+                    "type": "svn",
+                    "reference": "standard/trunk/"
+                }
+            }
+        }
+    },
+    "require": {
+        "composer/installers": "dev-master",
+        "Zend": "@dev"
+    }
+}
