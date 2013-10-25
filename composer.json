@@ -3,7 +3,7 @@
     "description": "",
     "minimum-stability": "dev",
     "config": {
-        "vendor-dir": "libraries"
+        "vendor-dir": "library"
     },
     "repositories": {
         "zendframework": {
@@ -12,9 +12,9 @@
                 "name": "Zend",
                 "version": "@dev",
                 "source": {
-                    "url": "http://framework.zend.com/svn/framework/",
-                    "type": "svn",
-                    "reference": "standard/trunk/"
+                    "url": "https://github.com/zendframework/zf2.git",
+                    "type": "git",
+                    "reference":"master"
                 }
             }
         }
